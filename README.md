@@ -3,8 +3,11 @@ This program is used for fitting experimental data to Carreau-Yasuda model
 ## Installation of dependencies
 
 `pip install tk`
+
 `pip install scipy`
+
 `pip install numpy`
+
 `pip install matplotlib`
 
 ## Usage
