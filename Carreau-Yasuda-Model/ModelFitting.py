@@ -99,7 +99,7 @@ class GraphicalUserInterface(GeneralizedNeutonianFluidModels):
         self.trans_label     = tk.Label(self.frame, text='a=',  width=2, font='none 11', bg='blue', fg='white')
         self.pw_indx_label   = tk.Label(self.frame, text='n=',  width=2, font='none 11', bg='blue', fg='white')
 
-        self.upload_label    = tk.Label(self.frame, text='Upload data or paste X and Y', bg='blue', fg='white', font='none 12 bold')
+        self.upload_label    = tk.Label(self.frame, text='Upload data or paste shear rate and viscosity', bg='blue', fg='white', font='none 12 bold')
         self.upload_txtentry = tk.Entry(self.frame, width=50, bg='white')
         self.upload_txtentry.bind("<Button-1>", lambda e: self.upload_txtentry.delete(0, tk.END))
         self.upload_txtentry.insert(0, "                         *.dat, *.csv or *.txt only")
