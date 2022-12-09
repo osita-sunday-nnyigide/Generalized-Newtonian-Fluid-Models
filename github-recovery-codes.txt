@@ -1,0 +1,42 @@
+98b4b-43bb5
+80abe-89510
+7026d-55926
+72f97-6b4f7
+44efb-d1d09
+5a9c3-19e94
+a41f8-e64dd
+529ed-b9a37
+002e0-ce6cc
+d14c2-1911d
+c2efe-95ba2
+b508d-1a8d2
+962df-2f238
+3f5de-f296c
+832cb-1d076
+e8a3d-990e2
+
+https://cyclinghikes.com/does-github-notify-if-someone-downloaded-your-repo/#Can_GitHub_track_downloads
+
+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
+
+git init
+
+git add .
+
+git status
+
+git commit -m "First commit"
+
+git config --global user.email "ositannyigide2@gmail.com"
+
+git config --global user.name "osita-sunday-nnyigide"
+
+git commit . -m "first commit"
+
+git commit -m "First commit"
+
+git remote set-url origin https://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@github.com/osita-sunday-nnyigide/PRAS_Server.git
+
+git remote add origin https://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@github.com/osita-sunday-nnyigide/PRAS_Server.git
+
+git push -u origin master
