@@ -55,6 +55,8 @@ class GeneralizedNeutonianFluidModels:
         gs = gridspec.GridSpec(1,1)
         ax1 = fig.add_subplot(gs[0])
         ax1.plot(x, y, "ro")
+        ax1.set_xscale('log')
+        ax1.set_yscale('log')
         popt, pcov = optimize.curve_fit(self.CarreauYasudaModel, x, y, p0=[μo , μf, λ, a, n])
         ax1.plot(x, self.CarreauYasudaModel(x, *popt), '--', color ='y', label ="optimized data")
         ax1.set_xscale('log')
@@ -139,8 +141,8 @@ class GraphicalUserInterface(GeneralizedNeutonianFluidModels):
 
         self.data_x_axis.bind("<Button-1>", lambda e: self.data_x_axis.delete(0.0, END))
         self.data_y_axis.bind("<Button-1>", lambda e: self.data_y_axis.delete(0.0, END))
-        self.data_x_axis.insert(END, '  Enter shear rate') # END for Text and 0 for Entry
-        self.data_y_axis.insert(END, '  Enter viscosity')
+        self.data_x_axis.insert(END, '  Enter shear rate\n  excluding string\n  or column title') # END for Text and 0 for Entry
+        self.data_y_axis.insert(END, '  Enter viscosity\n  excluding string\n  or column title')
 
         self.zero_vis.bind("<Button-1>", lambda e: self.zero_vis.delete(0.0, END))
         self.inf_vis.bind("<Button-1>", lambda e: self.inf_vis.delete(0.0, END))
