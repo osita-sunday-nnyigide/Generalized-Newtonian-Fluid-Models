@@ -1,19 +1,19 @@
 This program is used for fitting experimental data to GNF models.
 Currently, the following models are implemented: 
 
-## Ellis
+#Ellis
 
-## Sisko
+#Sisko
 
 ## Williamson
 
-## Cross
+#Cross
 
-## Power Law
+#Power Law
 
-## Carreau-Yasuda
+#Carreau-Yasuda
 
-## Installation of dependencies
+#Installation of dependencies
 
 `pip install tk`
 
