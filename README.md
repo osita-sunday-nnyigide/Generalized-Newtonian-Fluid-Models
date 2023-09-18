@@ -1,4 +1,17 @@
-This program is used for fitting experimental data to GNF models
+This program is used for fitting experimental data to GNF models.
+Currently, the following models are implemented: 
+
+# Ellis
+
+# Sisko
+
+# Williamson
+
+# Cross
+
+# Power Law
+
+# Carreau-Yasuda
 
 ## Installation of dependencies
 
