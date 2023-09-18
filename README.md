@@ -5,7 +5,7 @@ Currently, the following models are implemented:
 `Sisko`
 `Williamson`
 `Cross`
-`Power Law`
+`Power Law` and
 `Carreau-Yasuda`
 
 ## Installation of dependencies
