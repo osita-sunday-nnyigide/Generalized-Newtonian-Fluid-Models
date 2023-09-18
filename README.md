@@ -1,4 +1,4 @@
-This program is used for fitting experimental data to Carreau-Yasuda model
+This program is used for fitting experimental data to GNF models
 
 ## Installation of dependencies
 
