@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 
 __doc__ = """
-
 This program requires python 3.6 or higher.
-
-This module has the function(s) that is used to 
-
-fit data to the Carreau-Yasuda Model.
-
+This program fits experimental data to GNF models.
 """
 
 __author__     = "Osita Sunday Nnyigide"
