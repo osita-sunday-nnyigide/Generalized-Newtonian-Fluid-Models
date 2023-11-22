@@ -7,6 +7,10 @@ Currently, the following models are implemented:
 `Cross`
 `Power Law` and
 `Carreau-Yasuda`
+`Hershel Buckley`
+`Bingham`
+`Casson`
+`Powell-Eyring`
 
 ## Installation of dependencies
 
