@@ -6,7 +6,7 @@ This program requires python 3.6 or higher.
 
 This module has the function(s) that is used to 
 
-fit data to the Carreau-Yasuda Model.
+fit data to the GNF Models.
 
 """
 
