@@ -5,11 +5,11 @@ Currently, the following models are implemented:
 `Sisko`
 `Williamson`
 `Cross`
-`Power Law` and
+`Power Law`
 `Carreau-Yasuda`
 `Hershel Buckley`
 `Bingham`
-`Casson`
+`Casson` and
 `Powell-Eyring`
 
 ## Installation of dependencies
