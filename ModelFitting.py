@@ -24,9 +24,9 @@ __maintainer__ = "Osita Sunday Nnyigide"
 
 __email__      = "osita@protein-science.com"
 
-__status__     = "Trial"
+__status__     = "Production"
 
-__date__       = "November 23, 2022"
+__date__       = "November 22, 2023"
 
 import os
 import customtkinter
