@@ -62,7 +62,7 @@ class GeneralizedNeutonianFluidModels:
     def PowerLawModel(self, params, x_data, y_data):
         K, n = params
         y_predicted = K * x_data**(n-1)
-        error = np.sum((y_data - y_predicted)**2)  # You can use different error metrics as needed
+        error = np.sum((y_data - y_predicted)**2) 
         return error
 
     def CarreauYasudaModel(self, params, x, y):
@@ -219,7 +219,7 @@ class GeneralizedNeutonianFluidModels:
         plt.show()
 
     def FitCarreauYasudaModel(self, x, y, μo=3354.07, μf=42.2583, λ=2.68884e-5, a=0.902192, n=-1945.61):
-        initial_guess = [μo , μf, λ, a, n]  # Initial guesses for K and n       
+        initial_guess = [μo , μf, λ, a, n]         
         bounds = [(-np.inf, np.inf), (y[-1], np.inf), (-np.inf, np.inf), (-np.inf, np.inf), (-np.inf, np.inf)]
         result = optimize.minimize(self.CarreauYasudaModel, initial_guess, args=(x, y), bounds=bounds)
         opt_params = result.x 
