@@ -16,6 +16,8 @@ Currently, the following models are implemented:
 
 `pip install tk`
 
+`pip install customtkinter`
+
 `pip install scipy`
 
 `pip install numpy`
